@@ -8,8 +8,7 @@ void copyright(){
     system("clear");
     printf("=============================================================\n\n");
     printf("JOGO DA FORCA\n");
-    printf("Desenvolvido por: \n\t18151 - Victor Bison Domiciano \n");
-    printf("\t18149 - Pedro Andrade Salomao\n");
+    printf("Desenvolvido por: \n\t Victor Bison 18151 e Pedro Salomao 18139\n");
     printf("=============================================================\n\n");
 }
 
@@ -29,7 +28,8 @@ int main(int argc, char *argv[])
 
     strcpy(fNameArq,"palavras.dat");
 
-    if(argc>1){
+    if(argc>1)
+    {
       strcpy(fNameArq,argv[1]);
     }
 
@@ -46,12 +46,17 @@ int main(int argc, char *argv[])
         imprimeListaSecreta(lstSecreta);
 
         sorteada= sorteiaPalavra(lstSecreta);
-        if(sorteada!=NULL){
+        if(sorteada!=NULL)
+        {
             printf("%s\n", sorteada->palavra);
-        }else{
+        }
+        else
+        {
             printf("Não tem palavra disponível!\n\n");
         }
-    }while(getchar()!='f');
+    }
+
+    while(getchar()!='f');
 
 
     return 0;

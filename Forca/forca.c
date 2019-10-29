@@ -49,7 +49,8 @@ NoSecreto * carregaListaArquivo(NoSecreto * l, char nomeArq[255])
     FILE * fWords;
 
     fWords = fopen(nomeArq,"r");
-    if(fWords==NULL){
+    if(fWords==NULL)
+    {
         printf("Falha ao acessar base de dados!!!\n\n");
         exit(0);
     }
@@ -119,5 +120,3 @@ NoSecreto * retornaPalavraPos(NoSecreto *l, int pos)
     }
     return p;
 }
-
-

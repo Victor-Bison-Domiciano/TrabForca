@@ -34,4 +34,3 @@ int tamanhoListaSecreta(NoSecreto *l);
 NoSecreto * retornaPalavraPos(NoSecreto *l, int pos);
 
 #endif // FORCA_H_INCLUDED
-
