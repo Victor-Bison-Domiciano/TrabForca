@@ -11,6 +11,7 @@
 				<Option object_output="obj/Debug/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
+				<Option parameters="C:\Users\aluno\Desktop\Forca\forca.dat" />
 				<Compiler>
 					<Add option="-g" />
 				</Compiler>
@@ -31,6 +32,10 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="forca.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="forca.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
