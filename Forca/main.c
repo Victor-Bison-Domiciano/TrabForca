@@ -8,7 +8,7 @@ void copyright(){
     system("clear");
     printf("=============================================================\n\n");
     printf("JOGO DA FORCA\n");
-    printf("Desenvolvido por: \n\t Victor Bison 18151 e Pedro Salomao 18139\n");
+    printf("Desenvolvido por: \n\t Victor Bison 18151 e Pedro Salomão 18149\n");
     printf("=============================================================\n\n");
 }
 
